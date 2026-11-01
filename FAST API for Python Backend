@@ -1,0 +1,14 @@
+# FAST API is a web framework of python. Like Django, Flask, etc.
+
+# FAST API vs OTHERS:
+1. It is faster than all other frameworks and also supports microservices.
+2. It is build on top of the Pydantic, so it automatically provides the data validation and data parcing functionality.
+3. It supports asynchronous programming means can handle multiple requests simultaniously.
+
+# What we will learn:
+1. Performing CRUD Operations.
+2. Connection to databases.
+3. Implementation of Authentication and its flow:
+    means from registring of the user to login to generating the token a full flow.
+4. How we can send emails to the user.
+5. How we can perform background task.
