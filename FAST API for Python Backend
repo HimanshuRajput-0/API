@@ -29,3 +29,7 @@ in terminal run: fastapi dev main.py
 and we will get a local host server.
 
 # Creation of first END point:
+we need to define a function and now we will use decorator to make it as an endpoint.
+ex: @app.get("/")
+    def home ():
+            return "Hello"
