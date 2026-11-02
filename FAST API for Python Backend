@@ -12,3 +12,20 @@
     means from registring of the user to login to generating the token a full flow.
 4. How we can send emails to the user.
 5. How we can perform background task.
+
+# FAST API setup:
+Python and Pip required.
+Create virtual environment:
+                            --> python -m venv "name of env"
+                            --> ./venv/Scripts/activate.
+create a file main.py and fastapi version:
+                            --> import fastapi
+                            --> print(fastapi.__version__)
+
+# CREATION OF FASTAPI server:
+--> from fastapi import FastAPI
+--> app = FastAPI ## so this an intheritance of the class FastAPI which will behave like a server.
+in terminal run: fastapi dev main.py
+and we will get a local host server.
+
+# Creation of first END point:
